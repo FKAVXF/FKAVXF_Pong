@@ -1,0 +1,9 @@
+﻿<Window x:Class="WpfApplication2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:WpfApplication2"
+        Title="MainWindow"
+        SizeToContent="WidthAndHeight" >
+    <local:PongControl Width="{x:Static local:Config.Width}"
+                      Height="{x:Static local:Config.Height}" />
+</Window>

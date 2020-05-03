@@ -1,0 +1,18 @@
+﻿<Application x:Class="WpfApplication2.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="BgColor" Color="Cyan" />
+        <SolidColorBrush x:Key="BorderColor" Color="DarkGray" />
+        <sys:Int32 x:Key="BorderSize">4</sys:Int32>
+
+        <sys:Double x:Key="GameWidth">700</sys:Double>
+        <sys:Double x:Key="GameHeight">300</sys:Double>
+        <SolidColorBrush x:Key="BallBg" Color="Yellow" />
+        <SolidColorBrush x:Key="BallLine" Color="Red" />
+        <SolidColorBrush x:Key="PadBg" Color="Maroon" />
+        <SolidColorBrush x:Key="PadLine" Color="Black" />
+    </Application.Resources>
+</Application>
